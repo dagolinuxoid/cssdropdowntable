@@ -1,0 +1,14 @@
+{
+  "name": "tabledropdown",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "w-pug": "pug -w . -o . -P",
+    "w-sass": "node-sass -w . -o .",
+    "w-bs": "browser-sync start --server --files=. --browser=firefox",
+    "serve": "npm-run-all --parallel w-*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
